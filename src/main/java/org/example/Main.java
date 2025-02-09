@@ -13,8 +13,14 @@ public class Main {
 
         SpringApplication springApplication= new SpringApplication(Main.class);
         ConfigurableApplicationContext container = springApplication.run();
+
+        //student
         Student student = container.getBean(Student.class);
         System.out.println(student);
         System.out.println(student.getName());
+
+        //myApp
+        myApp m = container.getBean(myApp.class);
+        System.out.println(m.getName());
     }
 }
