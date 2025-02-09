@@ -1,0 +1,6 @@
+server:
+  port: 8085
+
+myApp:
+  name: taran
+  version: 1.2
